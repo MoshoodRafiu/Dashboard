@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Atata57</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Font Awesome JS -->
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header d-flex justify-content-center">
+                <div class="logo"><img src="assets/images/atata.jpeg" class="img main-logo" width="50px"  alt="logo" style="border-radius: 50%;"></div>
+                <h3 class="mx-2">Atata57</h3>
+                <strong><div class="text-center"><img src="assets/images/atata.jpeg" class="img" width="50px"  alt="logo" style="border-radius: 50%;"></div></strong>
+            </div>
+            <ul class="list-unstyled components">
+                <div class="header-info">
+                    <img src="assets/images/user.jpg" alt="avatar" class="avatar-header mx-2">
+                    <div>
+                        <div><span class="font-weight-bold">Display Name</span></div>
+                        <div class="current-status-details">
+                            <div><i class="fa fa-circle status"></i></div>
+                            <div><span class="small font-weight-bold">Online</span></div>
+                        </div>
+                    </div>
+                </div>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-th-large icon"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="#">
+                        <i class="fa fa-shopping-cart icon"></i>
+                        <span>Buyers</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-store-alt icon"></i>
+                        <span>Sellers</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-university icon"></i>
+                        <span>Insurance</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-truck icon"></i>
+                        <span>Logistics</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-warehouse icon"></i>
+                        <span>Warehouses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-credit-card icon"></i>
+                        <span>Payments</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#productsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fab fa-product-hunt icon"></i>
+                        <span>Products</span>
+                        <span class="ml-2 information-icon small">new</span>
+                    </a>
+                    <ul class="collapse list-unstyled" id="productsSubmenu">
+                        <li>
+                            <a href="#">
+                                <i class="far fa-circle bullet"></i> All
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-circle bullet"></i> Top Selling
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#orderSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-handshake icon"></i>
+                        <span>Orders</span>
+                    </a>
+                    <ul class="collapse list-unstyled" id="orderSubmenu">
+                        <li>
+                            <a href="#">
+                                <i class="far fa-circle bullet"></i> Settled
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-circle bullet"></i> Pending
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#refundsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fa fa-hand-holding-usd icon"></i>
+                        <span>Refunds</span>
+                    </a>
+                    <ul class="collapse list-unstyled" id="refundsSubmenu">
+                        <li>
+                            <a href="#">
+                                <i class="far fa-circle bullet"></i> Settled
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-circle bullet"></i> Pending
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#categoriesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-layer-group icon"></i>
+                        <span>Categories</span>
+                    </a>
+                    <ul class="collapse list-unstyled" id="categoriesSubmenu">
+                        <li>
+                            <a href="#">
+                                <i class="far fa-circle bullet"></i> Categories
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-circle bullet"></i> Main Categories
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-circle bullet"></i> Subcategories
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="">
+                    <a href="#blogSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fa fa-newspaper icon"></i>
+                        <span>Blog</span>
+                    </a>
+                    <ul class="collapse list-unstyled" id="blogSubmenu">
+                        <li>
+                            <a href="#">
+                                <i class="far fa-circle bullet"></i> Manage Posts
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-circle bullet"></i> Manage Categories
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-lock icon"></i>
+                        <span>Escrow</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-bullhorn icon"></i>
+                        <span>Promotions</span>
+                        <span class="ml-2 information-icon small">new</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-users icon"></i>
+                        <span>Manage Users</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#authorizationsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-users-cog icon"></i>
+                        <span>Authorizations</span>
+                    </a>
+                    <ul class="collapse list-unstyled" id="authorizationsSubmenu">
+                        <li>
+                            <a href="#">
+                                <i class="far fa-circle bullet"></i> Manage Roles
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="far fa-circle bullet"></i> Manage Permissions
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="sidebar-footer">
+                <a href="#" class="footer-icon mx-3"><i class="fa fa-user"></i></a>
+                <a href="#" class="footer-icon mx-3"><i class="fa fa-envelope"></i></a>
+                <a href="#" class="footer-icon mx-3"><i class="fa fa-sign-out-alt"></i></a>
+            </div>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+            <nav>
+                <div class="container-fluid upper-nav">
+
+                    <button type="button" id="sidebarCollapse">
+                        <div class="toggle-line"></div>
+                        <div class="toggle-line"></div>
+                        <div class="toggle-line"></div>
+                    </button>
+                    <div class="ml-auto d-flex align-items-center">
+                        <a href="#" class="nav-top-icon"><i class="fa fa-bell"></i></a>
+                        <a href="#" class="nav-top-icon"><i class="fa fa-comment-alt"></i></a>
+                        <a href="#" class="nav-top-icon"><i class="fa fa-globe"></i></a>
+                        <a href="#" class="nav-top-icon"><i class="fa fa-envelope"></i></a>
+                        <div><img id="infoToggler" class="ml-3 avatar-small" src="assets/images/user.jpg" alt="avatar"></div>
+                    </div>
+                    <div id="userInfo">
+                        <div class="d-flex align-items-center p-3">
+                            <img class="avatar-big" src="assets/images/user.jpg" alt="avatar">
+                            <div class="user-details mx-2">
+                                <div class="display-name"><span>Display Name</span></div>
+                                <div class="email"><span>admin@atata57.com</span></div>
+                                <div><span class="small">Manager</span></div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div>
+                            <ul class="user-list">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-user bullet"></i> Profile
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-envelope"></i> Inbox
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-sign-out-alt"></i> Logout
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="content-body">
+                <main>
+                    <div class="row mt-5">
+                        <div class="col-lg-4 col-md-6 mb-5">
+                            <div class="item">
+                                <div class="d-flex">
+                                    <span class="fa fa-users fa-2x dashboard-icon"></span>
+                                    <span class="ml-3">Buyers</span>
+                                </div>
+                                <span class="counts">0</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-5">
+                            <div class="item">
+                                <div class="d-flex">
+                                    <span class="fa fa-store-alt fa-2x dashboard-icon"></span>
+                                    <span class="ml-3">Sellers</span>
+                                </div>
+                                <span class="counts">0</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-5">
+                            <div class="item">
+                                <div class="d-flex">
+                                    <span class="fa fa-university fa-2x dashboard-icon"></span>
+                                    <span class="ml-3">Insurance</span>
+                                </div>
+                                <span class="counts">0</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-5">
+                            <div class="item">
+                                <div class="d-flex">
+                                    <span class="fa fa-bus-alt fa-2x dashboard-icon"></span>
+                                    <span class="ml-3">Logistics</span>
+                                </div>
+                                <span class="counts">0</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-5">
+                            <div class="item">
+                                <div class="d-flex">
+                                    <span class="fa fa-warehouse fa-2x dashboard-icon"></span>
+                                    <span class="ml-3">Warehouses</span>
+                                </div>
+                                <span class="counts">0</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-5">
+                            <div class="item">
+                                <div class="d-flex">
+                                    <span class="fa fa-handshake fa-2x dashboard-icon"></span>
+                                    <span class="ml-3">Orders</span>
+                                </div>
+                                <span class="counts">0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card mb-5">
+                                <div class="card-header p-0">
+                                    <img src="assets/images/store.png" alt="image" class="img img-fluid card-img top">
+                                </div>
+                                <div class="card-body">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card mb-5">
+                                <div class="card-header p-0">
+                                    <img src="assets/images/cart.png" alt="image" class="img img-fluid card-img top">
+                                </div>
+                                <div class="card-body">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="card mb-5">
+                                <div class="card-header p-0">
+                                    <img src="assets/images/test.jpeg" alt="image" class="img img-fluid card-img top">
+                                </div>
+                                <div class="card-body">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-5">
+                                <div class="card-header p-0">
+                                    <img src="assets/images/test.jpeg" alt="image" class="img img-fluid card-img top">
+                                </div>
+                                <div class="card-body">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <div class="row">
+                    <div class="col-12 content-footer">
+                        <span>&copy; Copyright Atata57 2020</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
